@@ -1,22 +1,16 @@
-
-import './App.css';
-import Header from './components/Header';
-// import Button from './components/Button';
-import TaskList from './components/TaskList';
-
-
+import "./App.css";
+import AddTask from "./components/AddTaskForm";
+import Header from "./components/Header";
 
 
 
 function App() {
   return (
     <div className="App">
-    <Header/>
-    {/* <Button/> */}
-    <TaskList/>
+      <Header/>
+      <AddTask/>
     </div>
   );
 }
 
 export default App;
-
