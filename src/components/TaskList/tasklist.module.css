@@ -1,0 +1,10 @@
+.btnWrapper{
+    display: block;
+    width: 40%;
+}
+.btn{
+    background: green;
+    width:100%;
+    border-radius: 5px;
+    padding:10px 20px;
+}
